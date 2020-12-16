@@ -1,0 +1,41 @@
+{
+  "name": "M5-D8-EventBrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js",
+    "debug": "nodemon --inspect -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Vane/M5-D8-EventBrite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Vane/M5-D8-EventBrite/issues"
+  },
+  "homepage": "https://github.com/C-Vane/M5-D8-EventBrite#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "express-validator": "^6.8.0",
+    "fs-extra": "^9.0.1",
+    "json2csv": "^5.0.5",
+    "klaw": "^3.0.0",
+    "multer": "^1.4.2",
+    "pdfmake": "^0.1.68",
+    "sendgrid-nodejs": "0.1.0-2",
+    "uniqid": "^5.2.0"
+  }
+}
